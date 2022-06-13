@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="calculator">
+        <div id="result"></div>
+        <div class="numbers">
+            <button value="1", id="1">1</button> 
+            <button value="2", id="2">2</button> 
+            <button value="3", id="3">3</button> 
+            <button value="4", id="4">4</button> 
+            <button value="5", id="5">5</button>  
+            <button value="6", id="6">6</button> 
+            <button value="7", id="7">7</button> 
+            <button value="8", id="8">8</button> 
+            <button value="9", id="9">9</button>
+            <button value="0", id="0">0</button> 
+
+            <button class="button" onclick="output()">=</button>
+        
+            <div class="operators">
+                <button value="+", id="addition">+</button>
+                <button value="-", id="subtraction">-</button>
+                <button value="×", id="muliplication">×</button>
+                <button value="÷", id="division">÷</button>
+                <button id="clear" onclick="clearcontent('result')">Clear</button>
+            </div>      
+        </div>
+    </div>
+
+    <script src="main.js"></script>
+</body>
+</html>

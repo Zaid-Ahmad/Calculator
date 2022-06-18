@@ -1,4 +1,4 @@
-# Calculator
+# The most buggy calculator you'll find on the internet! 
 A calculator I made with JavaScript. This is my first project!! 
 
 🏭 things used to build this mf- HTML, CSS, JS
